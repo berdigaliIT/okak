@@ -1,0 +1,31 @@
+.center {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+
+img {
+	width: 500px;
+}
+
+body {
+	background-color: black; 
+}
+
+.okak {
+	animation-name: okak;
+	animation-duration: 3s;
+}
+
+@keyframes okak {
+	from {
+		height: 1000vh;
+	}
+
+	to {
+		height: 30vh;
+	}
+}
